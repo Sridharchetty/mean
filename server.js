@@ -174,7 +174,7 @@ app.get('/api/data', (req, res) => {
 	}
 })
 // server listening
-app.listen(1200, (err) => {
-	if (err) throw err;
-	console.log('Express Server Running at 1200!');
-});
+// app.listen(1200, (err) => {
+// 	if (err) throw err;
+// 	console.log('Express Server Running at 1200!');
+// });
