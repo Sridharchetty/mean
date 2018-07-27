@@ -13,10 +13,10 @@ app.use(session({
 }))
 //mysql connection
 const conn = mysql.createConnection({
-	host : '127.0.0.1',
-	user : 'dbuser',
-	password : 'dbuser',
-	database : 'mean'
+	host : 'sql12.freemysqlhosting.net',
+	database : 'sql12249402',
+	user : 'sql12249402',
+	password : 'HmT3WKIckr'
 });
 conn.connect((err) => {
 	if(err) throw err;
